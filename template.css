@@ -1,0 +1,66 @@
+body{
+	margin: 0px;
+}
+.topo{
+	height: 100px;
+	background: #EEE;
+}
+.menu{
+	height: 50px;
+	background: #DDD;
+	text-transform: uppercase;
+}
+.menuint{
+	width:100%;
+	max-width: 800px;
+	margin: auto;
+}
+.munu ul{
+	margin: 0;
+	padding: 0;
+
+}
+.menu li{
+	list-style:none;
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	padding-left: 20px;
+	padding-right: 10px;
+	cursor: pointer;
+
+}
+.menu a {
+	color:#000;
+}
+.menu li:hover{
+	background: #CCC;
+}
+.container{
+	width: 100%;
+	max-width: 800px;
+	
+	min-height: 300px;
+	margin: auto;
+	
+}
+.rodape{
+	height: 100px;
+	background: #DDD;
+}
+.produto{
+	width: 180px;
+	height: 240px;
+	background: #EEE;
+	float: left;
+	margin: 10px;
+	text-align: center;
+}
+.erro{
+	padding: 15px;
+	border:  1px solid #000;
+	background: #ddd;
+	color: red;
+	font-size: 30px;
+	font-weight: 800;
+}
